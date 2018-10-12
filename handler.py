@@ -82,7 +82,7 @@ def mishmar(event, context):
 
         result1 = sc.api_call('chat.postMessage',
                               channel='#general',
-                              text=mishmarMessage('check out Mishmar in #torah', modifier),
+                              text=mishmarMessage('check out Mishmar in <#C3EP4TREX|torah>', modifier),
                               as_user=False,
                               username='slackbot',
                               icon_url='https://ca.slack-edge.com/T03DNU155-USLACKBOT-sv1444671949-72')
