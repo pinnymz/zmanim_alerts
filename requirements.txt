@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file requirements/requirements.txt requirements/requirements.in --upgrade
 #
-certifi==2019.3.9         # via requests
+certifi==2022.12.7         # via requests
 chardet==3.0.4            # via requests
 idna==2.8                 # via requests
 julian==0.14              # via zmanim
